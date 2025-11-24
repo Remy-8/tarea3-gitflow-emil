@@ -229,17 +229,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <form method="post" action="create.php">
             <div class="field-group">
                 <label for="name">Nombre completo</label>
-                <input type="text" name="name" id="name" value="<?php echo htmlspecialchars($name); ?>">
+                <input type="text" name="name" id="name" value="<?php echo htmlspecialchars($name); ?>"placeholder="Ej: Juan Pérez">
             </div>
 
             <div class="field-group">
                 <label for="email">Correo electrónico</label>
-                <input type="email" name="email" id="email" value="<?php echo htmlspecialchars($email); ?>">
+                <input type="email" name="email" id="email" value="<?php echo htmlspecialchars($email); ?>"placeholder="Ej: juan@example.com">
             </div>
 
             <div class="field-group">
                 <label for="career">Carrera</label>
-                <input type="text" name="career" id="career" value="<?php echo htmlspecialchars($career); ?>">
+                <input type="text" name="career" id="career" value="<?php echo htmlspecialchars($career); ?>"placeholder="Ej: Desarrollo de Software">
             </div>
 
             <div class="actions">
