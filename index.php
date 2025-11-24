@@ -234,7 +234,7 @@ $students = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         <?php if (count($students) === 0): ?>
             <div class="empty">
-                Todavía no hay estudiantes registrados. Usa el botón "Nuevo estudiante" para agregar el primero.
+                No hay estudiantes registrados por el momento. Usa el botón "Nuevo estudiante" para agregar el primero.
             </div>
         <?php else: ?>
             <table>
