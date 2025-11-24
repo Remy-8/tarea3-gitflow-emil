@@ -20,6 +20,14 @@ Campos de la tabla `students`:
 
 ## Base de datos
 
+## Cómo probar el proyecto de forma local
+
+1. Crear la base de datos `tarea3_gitflow` en MySQL.
+2. Importar o crear la tabla `students` con los campos id, name, email y career.
+3. Ajustar el usuario y la contraseña de la base de datos en `db.php` si es necesario.
+4. Colocar el proyecto en la carpeta del servidor local (por ejemplo, en XAMPP o Laragon).
+5. Abrir en el navegador la ruta `http://localhost/.../index.php` para ver el CRUD de estudiantes.
+
 Nombre de la base de datos: `tarea3_gitflow`.
 
 Tabla sugerida:
@@ -34,3 +42,4 @@ CREATE TABLE IF NOT EXISTS students (
     email VARCHAR(100) NOT NULL,
     career VARCHAR(100) NOT NULL
 );
+
