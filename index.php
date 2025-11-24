@@ -218,7 +218,7 @@ $students = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <div class="page">
     <div class="card">
-        <h1>Gestión de Estudiantes</h1>
+        <h1>Gestión de Estudiantes registrados</h1>
         <p>Desde este panel puedes crear, editar y eliminar estudiantes del sistema.</p>
         <p class="subtitle">CRUD sencillo para la gestión de estudiantes almacenados en la base de datos.</p>
 
