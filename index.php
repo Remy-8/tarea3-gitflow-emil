@@ -8,7 +8,7 @@ $students = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Estudiantes - Listado</title>
+    <title>Gestión de Estudiantes - Panel Principal</title>
     <style>
         :root {
             font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -218,7 +218,8 @@ $students = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <div class="page">
     <div class="card">
-        <h1>Listado de estudiantes</h1>
+        <h1>Gestión de Estudiantes</h1>
+        <p>Desde este panel puedes crear, editar y eliminar estudiantes del sistema.</p>
         <p class="subtitle">CRUD sencillo para la gestión de estudiantes almacenados en la base de datos.</p>
 
         <div class="top-actions">
